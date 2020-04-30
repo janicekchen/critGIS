@@ -1,0 +1,5 @@
+"0","bennett$citation <- lapply(bennett$citation, URLencode())
+"
+"2","Error in grepl(""%[[:xdigit:]]{2}"", URL, useBytes = TRUE) : 
+  argument ""URL"" is missing, with no default
+"

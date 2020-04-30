@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588257916297.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2541485534",
+    "id" : "EA16ABD2",
+    "lastKnownWriteTime" : 1588085882,
+    "last_content_update" : 1588085882,
+    "path" : "~/Documents/critGIS/critRS/02. scripts/01_GSscrape.Rmd",
+    "project_path" : "02. scripts/01_GSscrape.Rmd",
+    "properties" : {
+        "cursorPosition" : "69,32",
+        "last_setup_crc32" : "",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
