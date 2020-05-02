@@ -35,5 +35,7 @@ p$x$nodes$hyperlink <- lapply(bennett_nodes$title, function(x) {
 
 p$x$options$clickAction <- 'window.open(d.hyperlink)'
 
-saveNetwork(p, file = "bennett_bib.html")
+p
+
+# saveNetwork(p, file = "bennett_bib.html")
 
