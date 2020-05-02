@@ -33,11 +33,7 @@ p$x$nodes$hyperlink <- lapply(bennett_nodes$title, function(x) {
   paste0("https://scholar.google.com/scholar?hl=en&as_sdt=0%2C30&q=", URLencode(x))
   })
 
-
-
 p$x$options$clickAction <- 'window.open(d.hyperlink)'
-
-p
 
 saveNetwork(p, file = "bennett_bib.html")
 
