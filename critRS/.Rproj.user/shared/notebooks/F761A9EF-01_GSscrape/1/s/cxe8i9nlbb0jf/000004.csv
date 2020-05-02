@@ -1,9 +1,0 @@
-"0","# create dataframe, detect & append dates, retrieve index for end of author string, create author column
-article_comp <- data.frame(titles, authordate, links, stringsAsFactors = FALSE) %>%
-  mutate(year = regmatches((.)$authordate, gregexpr(""\\d{4}"", (.)$authordate)), 
-         index = as.numeric(regexpr(""-"", (article_comp).)$authordate)),
-"
-"2","Error: unexpected symbol in:
-""  mutate(year = regmatches((.)$authordate, gregexpr(""\\d{4}"", (.)$authordate)), 
-         index = as.numeric(regexpr(""-"", (article_comp).""
-"

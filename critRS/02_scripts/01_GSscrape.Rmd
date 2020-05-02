@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r libraries}
+```{r libraries, message = FALSE}
 # loading libraries
 library(rvest)
 library(dplyr)
@@ -79,15 +79,16 @@ initstring <- "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C30&q="
 Next, I need to read the html files of all of these pages and retrive the url that leads to the "Cited By" page. The "Cited by #" link is stored under a div element with the class "gs_fl".The <a> element containing the "Cited by #" is the fourth node in the div element, and the link is stored in the "href" attribute.
 
 ```{r citedby}
-lapply(bennett$searchstring[1], function(x) {
-  a <- read_html(paste0(initstring, x)) %>%
-    html_nodes(".gs_fl a")
-  
-  b <- a[4] %>%
-    html_attr("href")
-  
-  append(t, b)
-})
-
-bennett$citedby <- t
+# THIS CODE DOES NOT WORK (API LIMITS REACHED)
+# lapply(bennett$searchstring[1], function(x) {
+#   a <- read_html(paste0(initstring, x)) %>%
+#     html_nodes(".gs_fl a")
+#   
+#   b <- a[4] %>%
+#     html_attr("href")
+#   
+#   append(t, b)
+# })
+# 
+# bennett$citedby <- t
 ```

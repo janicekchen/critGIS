@@ -1,4 +1,0 @@
-"0","read_html(paste0(initstring, bennett$searchstring[1]))
-"
-"2","Error in open.connection(x, ""rb"") : HTTP error 429.
-"

@@ -1,1 +1,0 @@
-{"frames":[],"message":"Error: unexpected symbol in:\n\"  mutate(year = regmatches((.)$authordate, gregexpr(\"\\\\d{4}\", (.)$authordate)), \n         index = as.numeric(regexpr(\"-\", (article_comp).\"\n"}
